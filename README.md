@@ -6,7 +6,7 @@ The R-script first puts together the test/train subparts of the subjects-, the a
 
 To load the result into R use:  read.table("feature means UCI HAR Dataset.txt", header=TRUE)
 
-The task for this peer assessment is as follows: 
+The task for this peer assessment is as follows:  
 ( for more information see https://class.coursera.org/getdata-015/ )
 
 ---------------------------------------------------------------------
