@@ -2,6 +2,10 @@
 This repository contains the solution to the 'Getting and Cleaning Data Course Project'.
 It consists of two files: CodeBook.md, run_analysis.R
 
+The script first puts together the test/train subparts of subject, activity and the measurement data. It then binds these three parts and pushes the resulting table through a dplyr-pipe to do the calculations.
+
+To load the result into R use:  read.table("feature means UCI HAR Dataset.txt", header=TRUE)
+
 The task for this peer assessment is as follows: 
 ( for more information see https://class.coursera.org/getdata-015/ )
 
