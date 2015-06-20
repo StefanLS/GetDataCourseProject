@@ -2,7 +2,7 @@
 This database contains the mean values for selected features of the 'UCI HAR Dataset' data set.  
 The means are listed for each subject and each activity.
 
-Structure of the database "feature means UCI HAR Dataset.txt":
+Structure of the database (called: "feature means UCI HAR Dataset.txt"):
 
 - 1st column: subject ID  
 values: 1 to 30
