@@ -30,7 +30,7 @@ fBodyAccJerkMag
 fBodyGyroMag  
 fBodyGyroJerkMag
 
-E.g.: in the database the column tBodyAcc.std.X contains the mean of the standard deviation of tBodyAcc-X, i.e. the mean of tBodyAcc-std()-X of the UCI HAR Dataset, for each subject and each activity.
+E.g.: the column tBodyAcc.std.X contains the mean of the standard deviation of tBodyAcc-X, i.e. the mean of tBodyAcc-std()-X of the UCI HAR Dataset, for each subject and each activity.
 
 The original data come from accelerometer and gyroscope 3-axial measurments tAcc-XYZ and tGyro-XYZ. These signals (prefix 't' to denote time) were then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ). The time derivate of these signals was calculated to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. ('f' to indicate frequency domain signals). 
 
