@@ -1,5 +1,5 @@
 # GetDataCourseProject
-This repository contains the solution to the 'Getting and Cleaning Data Course Project'.
+This repository contains the solution to the 'Getting and Cleaning Data Course Project'.  
 It consists of two files: CodeBook.md, run_analysis.R
 
 The R-script first puts together the test/train subparts of the subjects-, the activity- and the measurement-data. It then binds these three parts and pushes the resulting table through a dplyr-pipe to do the calculations.
